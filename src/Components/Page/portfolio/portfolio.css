@@ -1,0 +1,91 @@
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+.titles{
+    color: white;
+    width: 50rem;
+    margin:auto;
+
+}
+
+.titles h1{
+    text-align: left;
+}
+
+.titles h2{
+    text-align: left;
+    justify-content: left;
+    font-weight: 200;
+    font-size: 1.4rem;
+    width: 500px;
+}
+
+.cont-button{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    width: auto;
+    height: auto;
+}
+
+.cont-all-button{
+    margin: auto;
+    width: 900px;
+    padding-top: 50px;
+    padding-left: 100px
+}
+
+.cont-button button{
+    height: 40px;
+    border: 0;
+    width: 140px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #542D95;
+    color: #B8B8B8;
+    font-weight: 400;
+    font-family: 'Mitr', sans-serif;
+    box-shadow: 0px 4px 3px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.cont-button span{
+    padding:20px;
+}
+
+.cont-all-button h4{
+    color: #B8B8B8;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.content-proyects{
+    border-radius: 0% 100% 0% 100% / 100% 67% 33% 0% ;
+    background-color: #542D95;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,34.4rem);
+    grid-gap: 20px;
+    gap: 20px;
+    padding: 40px;
+    text-transform: uppercase;
+    padding: 40px;
+}
+
+.cont-img img{
+    width: 34.4rem;
+    height: 20rem;
+    opacity: 0.4;
+}
+
+.panel{
+    width: 34.4rem;
+    height: 20rem;
+    background-color: black;
+    
+}

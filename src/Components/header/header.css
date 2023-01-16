@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: auto;
+}
+
+.cont-menu{
+    background-color: #542D95;
+    height: 10rem;
+    width: 11rem;
+    border-radius: 58% 42% 0% 100% / 0% 0% 100% 100% ;
+    text-align: center;
+    color: white;
+    margin: 0 74.4rem;
+}
+
+.cont-menu ion-icon{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 37px;
+    font-weight: 300;
+    cursor: pointer;
+}

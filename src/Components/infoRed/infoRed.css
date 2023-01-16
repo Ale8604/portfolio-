@@ -1,0 +1,26 @@
+
+body{
+    background-color: #2F2F2F;
+    font-family: 'Mitr', sans-serif;
+}
+
+.cont{
+    color: white;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.cont ion-icon{
+   padding: 10px 0;
+   font-size: 30px;
+}
+
+.conteiner{
+    margin-top: 30vh;
+    width: 100px;
+}
