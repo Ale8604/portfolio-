@@ -2,25 +2,48 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #292929;
+    font-family: 'K2D', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 
 header{
-    height: auto;
+    border-bottom: solid 4px white;
+    height: 150px;
 }
 
-.cont-menu{
-    background-color: #542D95;
-    height: 10rem;
-    width: 11rem;
-    border-radius: 58% 42% 0% 100% / 0% 0% 100% 100% ;
-    text-align: center;
-    color: white;
-    margin: 0 74.4rem;
+nav .navegacion{
+    display: flex;
 }
 
-.cont-menu ion-icon{
-    font-size: 40px;
-    margin-left: 30px;
-    margin-top: 37px;
-    font-weight: 300;
+.navegacion li{
+    margin: 57px 20px;
+    list-style: none;
+    color: #F4B143;
+    font-size: 1.3rem;
     cursor: pointer;
+}
+
+.img-logo{
+    width: 154px;
+    height: 150px;
+}
+
+.underline-hover::after{
+    content: "";
+    height: 4px;
+    width: 0;
+    background-color: white;
+    display: block;
+    transition: all 300ms;
+    border-radius: 50px;
+}
+
+.underline-hover:hover:after{
+    width: 100%;
 }

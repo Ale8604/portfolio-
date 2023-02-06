@@ -1,0 +1,17 @@
+footer{
+    height: 150px;
+    text-align: center;
+}
+
+footer h1{
+    color: #F4B143;
+    border-top: solid 4px #F4B143;
+    padding-top: 50px;
+    margin-top: 100px;
+    text-shadow: 5px 5px 30px  white;
+}
+
+footer span{
+    color: white;
+    text-shadow: 5px 10px 30px  #F4B143;
+}

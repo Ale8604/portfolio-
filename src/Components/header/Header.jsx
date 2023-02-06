@@ -1,13 +1,22 @@
 import React from "react";
 import './header.css'
+import logo from '../img/miLogo.png'
 
 export function Header (){
     return (
         <div className="content-all">
             <header>
                 <nav>
-                    <div className="cont-menu">
-                        <ion-icon name="grid-outline"></ion-icon>
+                    <div className="logo">
+                        <img src={logo} alt="Logo"  className="img-logo"/>
+                    </div>
+                    <div className="nav-cont">
+                        <ul className="navegacion">
+                            <a href="#Home"><li className="underline-hover">Home</li></a>
+                            <a href="#Proyects"><li className="underline-hover">Proyects</li></a>
+                            <a href="#AboutMe"><li className="underline-hover">About Me</li></a>
+                            <a href="#Contact"><li className="underline-hover">Contact</li></a>
+                        </ul>
                     </div>
                 </nav>
             </header>
