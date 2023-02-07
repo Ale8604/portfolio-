@@ -7,6 +7,11 @@ body{
     font-family: 'K2D', sans-serif;
 }
 
+
+html{
+    scroll-behavior: smooth !important;
+}
+
 nav{
     display: flex;
     justify-content: space-between;

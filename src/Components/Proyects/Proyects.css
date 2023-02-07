@@ -50,6 +50,7 @@ html::-webkit-scrollbar-thumb{
     height: 380px;
     overflow: hidden;
     box-shadow: -3px 5px 30px  #F4B143;
+    transition: 1s;
 }
 
 .cont-description h3{
@@ -87,7 +88,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .cont-info-proyects:hover{
-    transition: 1s;
+    /* transition: 1s; */
     height: 580px;
 }
 
