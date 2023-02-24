@@ -1,0 +1,37 @@
+.container-proyects{
+    background-color: #05243b;
+}
+
+.title-description-proyects{
+    font-size: 60px;
+    width: 900px;
+    padding: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+}
+
+.container-proyects ul{
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    gap: 2.25rem;
+    justify-content: center;
+    margin: 2.25rem 0 0;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.container-proyects{
+    padding: 5rem 5vh;
+}
+.cont{
+    padding: 20px;
+}
+.container-proyects h2{
+    color: white;
+}
+
+.container-proyects{
+    border-bottom: 2px solid #0088ff;
+}

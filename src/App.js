@@ -1,4 +1,3 @@
-import './App.css';
 import { Portfolio } from './Components/page/Portfolio';
 
 

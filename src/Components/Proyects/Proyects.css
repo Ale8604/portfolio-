@@ -9,98 +9,65 @@ html::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 
-.cards-info-proyects{
-    padding: 100px;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill,500px);
-    grid-gap: 20px;
-    gap:  50px 50px;
+.card-proyects{
+   list-style: none;
+   width: 320px;
 }
 
-.cont-titles-proyects h2{
-    font-weight: 600;
-    font-size: 2.8rem;
-    color: white;
-    text-shadow: -3px 5px 30px  #F4B143;
-    padding: 0px 220px;
+.card-proyects img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+
 }
 
-.cont-titles-proyects h3{
-    font-weight: 400;
-    font-size: 2rem;
-    color: #F4B143;
-    text-shadow: -3px 5px 30px  white;
-    padding: 0px 220px;
-    margin: 20px 0px;
+.card-proyects .cont-context{
+    background-color: #171321;
+    padding: 5.25rem 1.5rem 1.5rem;
 }
 
-.cont-img img{
-    width: 500px;
-    height: 298px;
-    border-radius: 9px 9px 0px 0px;
-    border-bottom: solid 4px #F4B143;
-}
-
-.cont-info-proyects{
-    width: 500px;
-    background-color: #1E1E1E;
-    color: white;
-    border-radius: 9px;
-    height: 380px;
-    overflow: hidden;
-    box-shadow: -3px 5px 30px  #F4B143;
-    transition: 1s;
-}
-
-.cont-description h3{
-    font-size: 2rem;
+.cont-context h2{
     text-align: center;
-    font-weight: 400;
+    color: #F4B143;
     margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 900;
 }
 
-.cont-description p{
-    padding: 20px;
-    font-size: 1.2rem;
+.cont-context{
+    color: white;
+    margin: -5rem 0 0;
+    border-radius: 0.25rem;
+    transition: all 0.8s;
+    height: 550px;
+    display: grid;
+    grid-template-rows: 10% 85% 5%;
+}
+.cont-context p{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-bottom: 30px;
     text-align: justify;
 }
 
-.cont-description button{
-    padding: 9px 20px;
-    border-radius: 50px;
-    background-color: #F4B143;
-    border: solid 2px white;
-    cursor: pointer;
+.cont-context a{
+    text-transform: uppercase;
+    font-size: .6rem ;
+    text-decoration: underline;
+    letter-spacing: .2em;
+    transition: .3s;
 }
 
-.cont-btn{
-    padding: 10px;
-    text-align: right;
+.deploy{
+    margin-right: 80px;
 }
 
-.cont-btn span{
-    font-size: 1rem;
-    font-weight: 700;
-    font-family: 'K2D', sans-serif;
-    padding: 20px;
-
-}
-
-.cont-info-proyects:hover{
-    /* transition: 1s; */
-    height: 580px;
-}
-
-.cont-description button:active{
-    transition: all 350ms;
-    background-color: #1E1E1E;
+.deploy:hover, .git:hover{
     color: white;
 }
-
-#Proyects{
-    margin-bottom: 5rem;
-    padding-bottom: 50px;
-    border-bottom: solid 4px white;
+.cont-context:hover{
+    box-shadow: rgba(244, 177, 0, 0.805) 5px 5px, rgba(244, 177, 46, 0.3) 10px 10px, rgba(244, 177, 46, 0.2) 15px 15px, rgba(244, 170, 46, 0.1) 20px 20px, rgba(244, 185, 46, 0.05) 25px 25px;
 }
-

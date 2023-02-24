@@ -1,24 +1,52 @@
-import React from "react";
+import React, { useRef}from "react";
 import './contact.css'
-import contact from '../img/the end.png'
+import emailjs from '@emailjs/browser';
+import contact from '../img/avion.png'
 
 export function Contact (){
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_w9qr3pi', 'template_3ipf2xc', form.current, 'ovZgxR419g7SZpNuJ')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
     return(
         <section id="Contact">
-        <div className="cont-all">
-            <div className="cont-title">
-                <h1>Contact</h1>
-                <h3 className="about">If you want to get in touch with me, talk about a collaboration project or just say hello, send your message to the following networks:</h3>
-                <div className="cont-redes">
-                    <a href="https://www.linkedin.com/in/alejandrosoteloramos/"><ion-icon name="logo-linkedin"></ion-icon></a>  
-                    <a href="https://github.com/Ale8604"><ion-icon name="logo-github"></ion-icon></a> 
-                    <a href="https://www.instagram.com/alejo_jsr/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <div className="cont-all-context-contact">
+                <div className="titles_contact">
+                    <h2>¿Quieres colaborar conmigo?</h2>
+                    <p>
+                       En este apartado podras ponerte en contacto conmigo, puede ser para
+                       una colaboracion de un proyecto que quieras realizar conmigo, 
+                       para contactarte conmigo o si solo quieres enviarme un saludo 💌.
+                    </p>
+                </div>
+                <div className="cont_form_img">
+                    <div className="cont_img_context">
+                        <div className="ctn-img">
+                            <img src={contact} alt="img de avion de papel" />
+                        </div>
+                        <div className="form">
+                            <form ref={form} className="form_email" onSubmit={sendEmail}>
+                                <label>Nombre</label>
+                                <br /><input type="text"  name="user_name" /><br />
+
+                                <label>Correo</label><br />
+                                <input  type="email" name="user_email" /><br />
+
+                                <label>Mensaje</label><br />
+                                <textarea name="user_message" className="msj" cols="30" rows="10"></textarea><br />
+                                <button ><span>Enviar Mensaje</span></button>
+                            </form>
+                        </div>
                     </div>
+                </div>
             </div>
-            <div className="cont-img-banner">
-                <img src={contact} alt="Banner" />
-            </div>
-        </div>
-    </section>
+        </section>
     )
 }

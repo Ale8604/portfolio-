@@ -2,9 +2,10 @@
     padding: 0;
     margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
-    background-color: #292929;
-    font-family: 'K2D', sans-serif;
+    background-color: #171321;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -18,16 +19,26 @@ nav{
 }
 
 header{
-    border-bottom: solid 4px white;
-    height: 150px;
+    border-bottom: solid 4px #F4B143;
+    height: 80px;
 }
 
 nav .navegacion{
     display: flex;
 }
 
+.logo{
+    display: flex;
+    color: #F4B143;
+}
+.logo h2{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+
 .navegacion li{
-    margin: 57px 20px;
+    margin: 27px 20px;
     list-style: none;
     color: #F4B143;
     font-size: 1.3rem;
@@ -35,8 +46,10 @@ nav .navegacion{
 }
 
 .img-logo{
-    width: 154px;
-    height: 150px;
+    width: 70px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 .underline-hover::after{

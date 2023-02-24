@@ -1,17 +1,40 @@
 footer{
-    height: 150px;
-    text-align: center;
+    height: 60px;
+    border-top: 1px solid rgba(128, 128, 128, 0.136);
+    margin-top: 50px;
 }
 
-footer h1{
-    color: #F4B143;
-    border-top: solid 4px #F4B143;
-    padding-top: 50px;
-    margin-top: 100px;
-    text-shadow: 5px 5px 30px  white;
+.ctn_all_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 
-footer span{
+.cont_footer_redes{
+    display: flex;
     color: white;
-    text-shadow: 5px 10px 30px  #F4B143;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.cont_footer_redes h3{
+    font-weight: 200;
+    margin-right: 8px;
+}
+
+.ctn_derechos_autor h3{
+    margin-left: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.ctn_derechos_autor span{
+    color: #f4b143;
+    font-weight: 500;
+}
+
+.cont_footer_redes ion-icon{
+    margin-right: 5px;
+    font-size: 1.6rem;
 }

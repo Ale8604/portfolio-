@@ -1,15 +1,66 @@
-.about{
-    margin: auto;
-    width: 700px;
-    margin-top: 20px;
-    font-size: 2.5rem;
-    color: #F4B143;
-    text-shadow: 5px 5px 30px  white;
-    font-weight: 400;
+#AboutMe{
+    padding: 5rem 5vw;
 }
 
-#AboutMe{
-    margin-bottom: 5rem;
-    padding-bottom: 50px;
-    border-bottom: solid 4px #F4B143;
+.cont-all{
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    justify-content: space-around;
+    gap: 6rem;
+}
+
+.name{
+    color: #F4B143;
+}
+
+.text-description-me{
+    width: 580px;
+}
+
+.biografia{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.cont-all img{
+    width: 500px;
+}
+
+.text-red{
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon-red{
+    display: flex;
+    margin: auto;
+}
+
+.icon-red ion-icon{
+    color: white;
+    font-size: 40px;
+    transition: all 1s;
+}
+
+.red{
+    background-color: #F4B143;
+    margin-left: 20px;
+    padding: 10px;
+    width: 40px;
+    border-radius: 50px;
+    height: 40px;
+    margin: auto;
+}
+
+.icon-red a{
+    margin-left: 90px;
+}
+
+.red ion-icon:hover{
+    color: black;
 }

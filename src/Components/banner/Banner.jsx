@@ -1,25 +1,27 @@
 import React from "react";
-import './banner.css'
-import banner from '../img/banner.png'
+import "./banner.css";
 
-
-export function Banner (){
-    return(
-        <section id="Home">
-            <div className="cont-all">
-                <div className="cont-title">
-                    <h1>Hi I'm Alejandro, welcome to my portfolio. </h1>
-                    <h2>Take a look at it</h2>
-                    <div className="cont-redes">
-                      <a href="https://www.linkedin.com/in/alejandrosoteloramos/"><ion-icon name="logo-linkedin"></ion-icon></a>  
-                       <a href="https://github.com/Ale8604"><ion-icon name="logo-github"></ion-icon></a> 
-                        <a href="https://www.instagram.com/alejo_jsr/"><ion-icon name="logo-instagram"></ion-icon></a>
-                    </div>
-                </div>
-                <div className="cont-img-banner">
-                    <img src={banner} alt="Banner" />
-                </div>
+export function Banner() {
+  return (
+    <section id="Home">
+      <div className="cont-all-banner">
+        <div className="cont-title">
+          <h1>
+            <span className="name-title">Alejandro Sotelo</span>
+            <span className="dev">Desarollador Full-Stack</span>
+          </h1>
+          <div className="skills">
+            <div className="cont-icons">
+              <ion-icon name="logo-react"></ion-icon>
+              <ion-icon name="logo-nodejs"></ion-icon>
+              <ion-icon name="logo-html5"></ion-icon>
+              <ion-icon name="logo-css3"></ion-icon>
+              <ion-icon name="logo-python"></ion-icon>
+              <ion-icon name="logo-javascript"></ion-icon>
             </div>
-        </section>
-    )
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

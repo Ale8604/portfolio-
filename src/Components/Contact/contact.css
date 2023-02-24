@@ -1,0 +1,82 @@
+.cont_form_img{
+    margin-top: 70px;
+}
+
+.cont_img_context{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+    width: 600px;
+    margin: auto;
+    align-items: center;
+
+}
+.ctn-img img{
+    width: 200px ;
+}
+
+.titles_contact h2{
+    color: #f4b143;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.titles_contact p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.form label{
+    color: #f4b143;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+.form input{
+    border: 1px solid #f4b143;
+    width: 400px;
+    padding: 10px;
+    background-color:#171321 ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: #f4b143;
+}
+
+.form textarea{
+    border: 1px solid #f4b143;
+    width: 400px;
+    padding: 10px;
+    background-color:#171321 ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: #f4b143;
+}
+
+.form button{
+    border: 1px solid #f4b143;
+    background-color:#171321 ;
+    color: #f4b143;
+    padding: 10px;
+    border-radius:50px;
+    width: 400px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .90s;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.form button:hover{
+    color: white;
+    border: 1px solid white;
+}
