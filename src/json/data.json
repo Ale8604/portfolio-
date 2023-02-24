@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Tetris",
-        "description":"El juego de tetris fue desarrollado en dupla, elaboración del videojuego tetris utilizando el lenguaje de programación JavaScript, un primer acercamiento al manejo del DOM  y poder manipular nuestro HTML, creando con los distintos métodos de JavaScript las funcionalidades tradicionales del juego de Tetris. Para este proyecto las tegnoligías utilizadas fueron: HTML5, CSS3, JavaScript",
+        "description":"El juego de tetris fue desarrollado en dupla, elaboración del videojuego tetris utilizando el lenguaje de programación JavaScript, un primer acercamiento al manejo del DOM  y poder manipular nuestro HTML, creando con los distintos métodos de JavaScript las funcionalidades tradicionales del juego de Tetris. Para este proyecto las tecnoligías utilizadas fueron: HTML5, CSS3, JavaScript",
         "img": "https://i.ibb.co/mRfVtHT/tetris-removebg-preview.png",
         "deploy": "https://tetris-woad.vercel.app/",
         "GitHub": "https://github.com/Ale8604/tetris"
