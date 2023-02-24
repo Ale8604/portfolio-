@@ -1,11 +1,15 @@
 import React from "react";
 import './Proyects.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export function Proyects({img, name, context, deploy, Git}) {
+    AOS.init();
     return (
-                <li className="card-proyects">
+        <div data-aos="flip-left">
+                <li className="card-proyects" data-aos="fade-down">
                     <img src={img} alt="title" />
-                    <div className="cont-context">
+                    <div className="cont-context" >
                         <h2 className="title-proyects">{name}</h2>
                         <p className="context-proyects">{context}</p> 
                         <div className="links">
@@ -14,5 +18,7 @@ export function Proyects({img, name, context, deploy, Git}) {
                         </div>                  
                     </div>
                 </li>
+        </div>
+
     )
 }

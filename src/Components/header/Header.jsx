@@ -17,8 +17,20 @@ export function Header (){
                             <a href="#AboutMe" className="sections-header"><li className="underline-hover">About Me</li></a>
                             <a href="#Proyects" className="sections-header"><li className="underline-hover">Proyects</li></a>
                             <a href="#Contact" className="sections-header"><li className="underline-hover">Contact</li></a>
-                            <ion-icon name="grid-outline" ></ion-icon>
+                            <label htmlFor="btn-menu"><ion-icon name="grid-outline" ></ion-icon></label>
                         </ul>
+                    </div>
+                    <input type="checkbox" id="btn-menu"/>
+                    <div className="ctn_menu">
+                        <div className="cont-menu">
+                            <nav>
+                                <a href="#Home" className="" htmlFor="btn-menu"><li className="">Home</li></a>
+                                <a href="#AboutMe" className=""><li className="">About Me</li></a>
+                                <a href="#Proyects" className=""><li className="">Proyects</li></a>
+                                <a href="#Contact" className=""><li className="">Contact</li></a>
+                            </nav>
+                            <label htmlFor="btn-menu" className="equis_icon" ><ion-icon name="close-outline"></ion-icon></label>
+                        </div>
                     </div>
                 </nav>
             </header>

@@ -81,3 +81,63 @@ nav .navegacion{
         margin:27px 20px;
     }
 }
+
+#btn-menu{
+    display: none;
+}
+
+.ctn_menu{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    width: 100%;
+    height: 100vh;
+    transition: all 500ms ease;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .ctn_menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#btn-menu:checked ~ .ctn_menu .cont-menu{
+    transform: translatex(0%);
+}
+
+
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    background-color: #1c1c1c;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translatex(-100%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-menu nav a{
+    padding: 30px;
+    font-size: 20px;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #F4B143;
+    background-color: #171321;
+}
+
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #F4B143;
+    font-size: 40px;
+    cursor: pointer;
+}

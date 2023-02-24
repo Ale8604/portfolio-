@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Ainoa Caps",
-        "description":"Ainoa Caps es un mini E-commerce de un cliente real, el fin de este proyecto era ser una tienda virtual para que el cliente hiciera mas visible su emprendimiento, fue una donacion a un cliente real donde mi persona desarrolló una tienda virtual guiandome del look and feel impartido por el cliente. Para este proyecto las tegnologías implementadas fueron: HTML5, CSS3, JavaScript, React.JS",
+        "description":"Ainoa Caps es un mini E-commerce de un cliente real, el fin de este proyecto era ser una tienda virtual para que el cliente hiciera mas visible su emprendimiento, fue una donacion a un cliente real donde mi persona desarrolló una tienda virtual guiándome del look and feel impartido por el cliente. Para este proyecto las tegnologías implementadas fueron: HTML5, CSS3, JavaScript, React.JS",
         "img": "https://i.ibb.co/6HKsYJ5/ainoacaps2-removebg-preview.png",
         "deploy": "https://ainoa-caps.vercel.app/",
         "GitHub": "https://github.com/Ale8604/ainoa_caps"

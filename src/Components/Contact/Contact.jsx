@@ -2,8 +2,11 @@ import React, { useRef}from "react";
 import './contact.css'
 import emailjs from '@emailjs/browser';
 import contact from '../img/avion.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export function Contact (){
+    AOS.init();
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -26,12 +29,12 @@ export function Contact (){
                        para contactarte conmigo o si solo quieres enviarme un saludo 💌.
                     </p>
                 </div>
-                <div className="cont_form_img">
-                    <div className="cont_img_context">
+                <div className="cont_form_img" >
+                    <div className="cont_img_context" >
                         <div className="ctn-img">
                             <img src={contact} alt="img de avion de papel" />
                         </div>
-                        <div className="form">
+                        <div className="form" >
                             <form ref={form} className="form_email" onSubmit={sendEmail}>
                                 <label>Nombre</label>
                                 <br /><input type="text"  name="user_name" /><br />
