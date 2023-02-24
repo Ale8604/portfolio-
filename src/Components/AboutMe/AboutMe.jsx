@@ -20,7 +20,7 @@ export function AboutMe(){
                     </p>
                     <br />
                     <p className="biografia">
-                    Apasionado por el aprendizaje tanto en el ámbito social como en lo personal si de tecnología o habilidades blandas estamos 
+                    Apasionado por el aprendizaje tanto en el ámbito social como en lo personal si de tegnología o habilidades blandas estamos 
                     hablando.
                     </p>
                     <br />

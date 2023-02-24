@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Replica de dezeer",
-        "description":"El proyecto réplica deezer se desarrolló en colaboración junto a un grupo de desarrolló y su objetivo era poner a prueba los conocimientos de maquetación de una aplicación y aplicar los estilos en cascada y para este proyecto las tegnologias implementadas fueron: HTML5 y CSS3.",
+        "description":"El proyecto réplica deezer se desarrolló en colaboración junto a un grupo de desarrollo y su objetivo era poner a prueba los conocimientos de maquetación de una aplicación y aplicar los estilos en cascada y para este proyecto las tegnologias implementadas fueron: HTML5 y CSS3.",
         "img": "https://i.ibb.co/nLPbgmy/629797e8e01809629f11358b-removebg-preview.png",
         "deploy": "https://replica-deezer-g1.netlify.app/",
         "GitHub": "https://github.com/ElPardo16/Replica-Deezer"
