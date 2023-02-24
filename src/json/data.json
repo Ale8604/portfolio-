@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Tetris",
-        "description":"El juego de tetris fue desarrollado en dupla, elaboracion del videojuego tetris utilizando el lenguaje de programacion JavaScript, un primer acercamiento al manejo del DOM  y poder manipular nuestro HTML, creando con los distintos metodos de JavaScript las funcionalidades tradicionales del juego de Tetris. Para este proyecto las tegnoligias utilizadas fueron: HTML5, CSS3, JavaScript",
+        "description":"El juego de tetris fue desarrollado en dupla, elaboracion del videojuego tetris utilizando el lenguaje de programacion JavaScript, un primer acercamiento al manejo del DOM  y poder manipular nuestro HTML, creando con los distintos metodos de JavaScript las funcionalidades tradicionales del juego de Tetris. Para este proyecto las tegnoligías utilizadas fueron: HTML5, CSS3, JavaScript",
         "img": "https://i.ibb.co/mRfVtHT/tetris-removebg-preview.png",
         "deploy": "https://tetris-woad.vercel.app/",
         "GitHub": "https://github.com/Ale8604/tetris"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "SabujCha",
-        "description":"SabujCha es un proyecto simple de maquetacion y estilado de una pagina web, es uno de mis primeros acercamientos a la maquetación de una pagina web y una pagina adaptable a los distintos dispositivos, siendo asi en pocas palabras una pagina web responsive. Tegnologias implementadas en este proyecto fueron: HTML5, CSS3",
+        "description":"SabujCha es un proyecto simple de maquetacion y estilado de una pagina web, es uno de mis primeros acercamientos a la maquetación de una pagina web y una pagina adaptable a los distintos dispositivos, siendo asi en pocas palabras una pagina web responsive. Tegnologías implementadas en este proyecto fueron: HTML5, CSS3",
         "img": "https://i.ibb.co/MsJ10NL/logo-SWhite.png",
         "deploy": "https://matcha-six.vercel.app/",
         "GitHub": "https://github.com/Ale8604/matcha"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Crytos Stadistics",
-        "description":"Crytos Stadistics es un proyecto pequeño de un consumo de la API de Coingecko, para elaborar un dashboard que contenga las estadisticas las primeras 100 cryptomonedas. En este proyecto se trabajo de forma grupal y fue el primer avistamiento de React.js y sus metodos de implementación, las tegnologias manejadas en este proyecto fueron: HTML5, CSS3, Bootstrap, React.JS, JavaScript",
+        "description":"Crytos Stadistics es un proyecto pequeño de un consumo de la API de Coingecko, para elaborar un dashboard que contenga las estadisticas las primeras 100 cryptomonedas. En este proyecto se trabajo de forma grupal y fue el primer avistamiento de React.js y sus metodos de implementación, las tegnologpías manejadas en este proyecto fueron: HTML5, CSS3, Bootstrap, React.JS, JavaScript",
         "img": "https://i.ibb.co/ZK6bm6j/bitcoin-logo-removebg-preview.png",
         "deploy": "https://dashboard-criptos-pink.vercel.app/",
         "GitHub": "https://github.com/ElPardo16/DashboardCriptos"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Ainoa Caps",
-        "description":"Ainoa Caps es un mini E-commerce de un cliente real, el fin de este proyecto era ser una tienda virtual para que el cliente hiciera mas visible su emprendimiento, fue una donacion a un cliente real donde mi persona desarrollo una tienda virtual guiandome del look and feel impartido por el cliente. Para este proyecto las tegnologias implementadas fueron: HTML5, CSS3, JavaScript, React.JS",
+        "description":"Ainoa Caps es un mini E-commerce de un cliente real, el fin de este proyecto era ser una tienda virtual para que el cliente hiciera mas visible su emprendimiento, fue una donacion a un cliente real donde mi persona desarrollo una tienda virtual guiandome del look and feel impartido por el cliente. Para este proyecto las tegnologías implementadas fueron: HTML5, CSS3, JavaScript, React.JS",
         "img": "https://i.ibb.co/6HKsYJ5/ainoacaps2-removebg-preview.png",
         "deploy": "https://ainoa-caps.vercel.app/",
         "GitHub": "https://github.com/Ale8604/ainoa_caps"
