@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "Wheel of Doom",
-        "description":"Wheel of Doom juego desarrollado de manera colaborativa, desarrolló desde cero a una rueda de la fortuna algo especial, una aplicación web para un nuevo evento de sacrifico de coders, con un sistema justo y aleatorio, en el que se hace el sorteo de una lista de nombres. Funcionamiento y adaptabilidad con nuestro tridente en desarrollo de código web, HTML, CSS (junto a la librería de Bootstrap), y JavaScript.",
+        "description":"Wheel of Doom juego desarrollado de manera colaborativa, se desarrolló desde cero a una rueda de la fortuna algo especial, una aplicación web para un nuevo evento de sacrifico de coders, con un sistema justo y aleatorio, en el que se hace el sorteo de una lista de nombres. Funcionamiento y adaptabilidad con nuestro tridente en desarrollo de código web, HTML, CSS (junto a la librería de Bootstrap), y JavaScript.",
         "img": "https://i.ibb.co/PQ7QF5g/conejo2-removebg-preview.png",
         "deploy": "https://wheel-of-happy.netlify.app/",
         "GitHub": "https://github.com/CatalinaVegaL/WheelOfDoom"
