@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Crytos Stadistics",
-        "description":"Crytos Stadistics es un proyecto peuqeño de un consumo de la API de Coingecko, para elaborar un dashboard que contenga las estadisticas las primeras 100 cryptomonedas. En este proyecto se trabajo de forma grupal y fue el primer avistamiento de React.js y sus metodos de implementación, las tegnologias manejadas en este proyecto fueron: HTML5, CSS3, Bootstrap, React.JS, JavaScript",
+        "description":"Crytos Stadistics es un proyecto pequeño de un consumo de la API de Coingecko, para elaborar un dashboard que contenga las estadisticas las primeras 100 cryptomonedas. En este proyecto se trabajo de forma grupal y fue el primer avistamiento de React.js y sus metodos de implementación, las tegnologias manejadas en este proyecto fueron: HTML5, CSS3, Bootstrap, React.JS, JavaScript",
         "img": "https://i.ibb.co/ZK6bm6j/bitcoin-logo-removebg-preview.png",
         "deploy": "https://dashboard-criptos-pink.vercel.app/",
         "GitHub": "https://github.com/ElPardo16/DashboardCriptos"

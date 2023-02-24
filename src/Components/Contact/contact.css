@@ -80,3 +80,36 @@
     color: white;
     border: 1px solid white;
 }
+
+@media (max-width:1000px) {
+    .titles_contact h2{
+        font-size: 50px;
+    }
+    .titles_contact p{
+        width: auto;
+        font-size: 1.4rem;
+    }
+    .cont_img_context{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       width: auto;
+    }
+    .form label{
+        margin-left: 10px;
+    }
+    .form input{
+        width: 380px;
+        margin-left: 10px;
+    }
+    .form textarea{
+        width: 380px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width:425px) {
+    .titles_contact h2{
+        font-size: 30px;
+    }
+}

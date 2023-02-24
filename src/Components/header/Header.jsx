@@ -13,10 +13,11 @@ export function Header (){
                     </div>
                     <div className="nav-cont">
                         <ul className="navegacion">
-                            <a href="#Home"><li className="underline-hover">Home</li></a>
-                            <a href="#AboutMe"><li className="underline-hover">About Me</li></a>
-                            <a href="#Proyects"><li className="underline-hover">Proyects</li></a>
-                            <a href="#Contact"><li className="underline-hover">Contact</li></a>
+                            <a href="#Home" className="sections-header"><li className="underline-hover">Home</li></a>
+                            <a href="#AboutMe" className="sections-header"><li className="underline-hover">About Me</li></a>
+                            <a href="#Proyects" className="sections-header"><li className="underline-hover">Proyects</li></a>
+                            <a href="#Contact" className="sections-header"><li className="underline-hover">Contact</li></a>
+                            <ion-icon name="grid-outline" ></ion-icon>
                         </ul>
                     </div>
                 </nav>

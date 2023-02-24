@@ -3,7 +3,7 @@
 }
 
 .title-description-proyects{
-    font-size: 60px;
+    font-size: 4rem;
     width: 900px;
     padding: 50px;
     font-weight: 900;
@@ -17,7 +17,6 @@
     flex-direction: row;
     gap: 2.25rem;
     justify-content: center;
-    margin: 2.25rem 0 0;
     flex-wrap: wrap;
     margin: auto;
 }
@@ -34,4 +33,16 @@
 
 .container-proyects{
     border-bottom: 2px solid #0088ff;
+}
+
+@media (max-width: 1200px) {
+    .container-proyects ul{
+        width: auto;
+    }
+    .title-description-proyects{
+        width: auto;
+        font-size: 40px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
 }

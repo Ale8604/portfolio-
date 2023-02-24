@@ -71,3 +71,12 @@ html::-webkit-scrollbar-thumb{
 .cont-context:hover{
     box-shadow: rgba(244, 177, 0, 0.805) 5px 5px, rgba(244, 177, 46, 0.3) 10px 10px, rgba(244, 177, 46, 0.2) 15px 15px, rgba(244, 170, 46, 0.1) 20px 20px, rgba(244, 185, 46, 0.05) 25px 25px;
 }
+
+@media (max-width:1000px) {
+    .cont-context p{
+        font-size:1.2rem;
+    }
+    .cont-context a{
+        font-size:.5rem;
+    }
+}

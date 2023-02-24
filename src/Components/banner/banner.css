@@ -19,14 +19,14 @@ a:-webkit-any-link {
 
 .name-title{
     color: #F4B143;
-    font-size: 110px;
+    font-size: 7rem;
     font-weight: bolder;
     text-align: center;
 }
 
 .dev{
     text-align: center;
-    height: 90px;
+    height: 6rem;
     background-color: #F4B143;
     font-weight: bolder;
 }
@@ -46,5 +46,43 @@ a:-webkit-any-link {
     color: #F4B143;
     margin-top: 30px;
     margin-right: 20px;
-    font-size: 90px;
+    font-size: 6rem;
 }
+
+@media (max-width:1000px) {
+    .cont-title .name-title{
+        font-size: 5rem;
+    }
+    .cont-title .dev{
+        font-size: 3.5rem;
+        height: auto;
+        padding: 0 10px ;
+        width: auto;
+        margin: auto;
+    }
+    .cont-title ion-icon{
+        font-size: 70px;
+    }
+    #Home{
+        height: auto;
+    }
+}
+@media (max-width:1000px) {
+    .cont-title {
+        width: auto;
+    }
+    .cont-title .name-title{
+        font-size: 5rem;
+    }
+    .cont-title .dev{
+        font-size: 3.5rem;
+        height: auto;
+        padding: 0 10px ;
+        width: auto;
+        margin: auto;
+    }
+    .cont-title ion-icon{
+        font-size: 70px;
+    }
+}
+
